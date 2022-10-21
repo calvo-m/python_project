@@ -4,7 +4,7 @@ import re
 
 # list of ingredients
 breakfast_ingredients = ("oats", "yogurt", "seeds", "flour", "sugar", "fuit", "almond milk",\
-    "cinnamon", "yogurt")
+    "cinnamon")
 lunch_ingredients = ("tofu", "pepper", "soy sauce", "lentils", "coconut milk", "onion", \
      "potatoes", "olive oil")
 snacks_ingredients = ("flour", "sugar", "chocolate chips", "potatoes", "olive oil", \
@@ -118,7 +118,6 @@ ingredients you input. You can try again.")
     else:
         print("These are the meals you can make: ")
         print(mealsFound)
-        #print("")
     time.sleep(1.8)
     print(" \nGoing back to main menu.")
     time.sleep(2.5)
